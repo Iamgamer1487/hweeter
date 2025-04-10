@@ -21,6 +21,7 @@ const Login = () => {
         )
 
         setMessage(`✅ Magic link sent to ${email}`);
+        account!.updateName(user)
     }
     catch (error: any){
         setMessage(`❌ ${error.message}`);
