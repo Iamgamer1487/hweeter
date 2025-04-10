@@ -16,7 +16,7 @@ const Login = () => {
         account!.createMagicURLToken(
           ID.unique(),
           email,
-          'http://localhost:3000/verify'
+          'https://hweeter.vercel.app/verify'
 
         )
 
